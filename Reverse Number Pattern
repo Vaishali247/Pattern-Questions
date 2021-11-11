@@ -1,0 +1,33 @@
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+
+1
+21
+321
+4321
+
+Input format :
+Integer N (Total no. of rows)
+
+Output format :
+Pattern in N lines
+
+CODE:
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int i,j,k,n;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        for(j=i;j>=1;j--)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+}
+
+
