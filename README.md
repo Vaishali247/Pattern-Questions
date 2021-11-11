@@ -1,2 +1,2 @@
 # Pattern-Questions
-some pattern questions in cpp
+some pattern questions using cpp
